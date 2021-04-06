@@ -13,3 +13,8 @@ p {
     font-family: 'Source Sans Pro', sans-serif;
     margin-bottom: 2rem;
 }
+
+body {
+    margin:auto;
+    max-width:900px;
+}
