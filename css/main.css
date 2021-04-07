@@ -38,3 +38,8 @@ iframe {
     display: block;
     margin: auto;
 }
+
+img.small-image {
+    display: block;
+    width: 60%;
+}
