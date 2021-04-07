@@ -15,7 +15,7 @@ p, td, th {
 }
 
 section, nav {
-    max-width: 80%;
+    max-width: 900px;
     margin: 0 auto;
 }
 
