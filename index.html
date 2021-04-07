@@ -10,33 +10,27 @@
 <header>
     <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
         <div id="navbarBasicExample">
-            <div class="navbar-start">
+            <div class="navbar-brand">
                 <a class="navbar-item" href="/">
                     About
                 </a>
 
                 <div class="navbar-item has-dropdown is-hoverable">
-                    <a class="navbar-link">
-                        Notable Examples
+                    <a class="navbar-item">
+                        Example 1
                     </a>
-
-                    <div class="navbar-dropdown">
-                        <a class="navbar-item">
-                            Example 1
-                        </a>
-                        <a class="navbar-item">
-                            Example 2
-                        </a>
-                        <a class="navbar-item">
-                            Example 3
-                        </a>
-                        <a class="navbar-item">
-                            Example 4
-                        </a>
-                    </div>
+                    <a class="navbar-item">
+                        Example 2
+                    </a>
+                    <a class="navbar-item">
+                        Example 3
+                    </a>
+                    <a class="navbar-item">
+                        Example 4
+                    </a>
                 </div>
 
-                <a class="navbar-item">
+                <a class="navbar-item" href="/bibliography">
                     Bibliography
                 </a>
             </div>
@@ -59,26 +53,55 @@
     </section>
     <section class="section question-section">
         <div class="container">
-            <h1 class="title has-text-centered">What are drive-by downloads?</h1>
+            <h4 class="title">What are drive-by downloads?</h4>
             <div class="question-answer-container">
-                <p>Drive-by downloads are attacks designed to silently and automatically download and install malware or other software onto a user's device. Usually made possible by exploits in browsers and their plugins, drive-by downloads can have serious consequences, especially because many common antivirus softwares are incapable of preventing them. A user is usually exposed to drive-by downloads via popups and links in phishing emails. Generally, the aim of such an attack will be to utilize vulnerabilities in web browsers, their plugins, and their extensions to take control of a client's system or install and execute programs of the attacker's choice.</p>
+                <p>Drive-by downloads are attacks designed to silently and automatically download and install malware or
+                    other software onto a user's device. Usually made possible by exploits in browsers and their
+                    plugins, drive-by downloads can have serious consequences, especially because many common antivirus
+                    softwares are incapable of preventing them. A user is usually exposed to drive-by downloads via
+                    popups and links in phishing emails. Generally, the aim of such an attack will be to utilize
+                    vulnerabilities in web browsers, their plugins, and their extensions to take control of a client's
+                    system or install and execute programs of the attacker's choice.</p>
             </div>
         </div>
         <div class="container">
-            <h1 class="title has-text-centered">How do drive-by downloads work?</h1>
-            <img class="centered-image" src="img/Drive-by-downloads-attack-flow.png" alt="Drive-by download attack flowchart">
+            <h4 class="title">How do drive-by downloads work?</h4>
+            <img class="centered-image" src="img/Drive-by-downloads-attack-flow.png"
+                 alt="Drive-by download attack flowchart">
             <div class="question-answer-container">
-                <p>This diagram demonstrates how a simplified drive-by download attack would occur. It begins with the attacker creating a malicious website (potentially mimicking a legitimate website, like in a phishing attack), which injects malicious code into its clients. When the client visits a legitimate site, a signal is also sent out to an exploit site. In a sophisticated attack, several intermediate websites will also be redirected to, making it harder to identify the exploit site. The exploit site houses elaborate malicious code that searches for and takes advantages of exploits in the client's current OS and web browser. If one is detected, it is utilized do install the malware of the attacker's choice directly to the user's device, all without alerting the user of any unusual activity.</p>
-                <p>Another common form of drive-by downloads involves implanting hidden, malicious payloads into authorized downloads. Such an attack involves some sort of attacker-created front for malware delivery, which installs more than the user believes will be installed.
+                <p>This diagram demonstrates how a simplified drive-by download attack would occur. It begins with the
+                    attacker creating a malicious website (potentially mimicking a legitimate website, like in a
+                    phishing attack), which injects malicious code into its clients. When the client visits a legitimate
+                    site, a signal is also sent out to an exploit site. In a sophisticated attack, several intermediate
+                    websites will also be redirected to, making it harder to identify the exploit site. The exploit site
+                    houses elaborate malicious code that searches for and takes advantages of exploits in the client's
+                    current OS and web browser. If one is detected, it is utilized do install the malware of the
+                    attacker's choice directly to the user's device, all without alerting the user of any unusual
+                    activity.</p>
+                <p>Another common form of drive-by downloads involves implanting hidden, malicious payloads into
+                    authorized downloads. Such an attack involves some sort of attacker-created front for malware
+                    delivery, which installs more than the user believes will be installed.
                 </p>
                 <p>
-                    Drive-by downloads may also be relatively non-malicious, installing adware or harmless PUPs (potentially unwanted programs) onto the client's machine. However, most of our work on this project is concentrated around the dangerous, malware-spreading usages of drive-by downloads.</p>
+                    Drive-by downloads may also be relatively non-malicious, installing adware or harmless PUPs
+                    (potentially unwanted programs) onto the client's machine. However, most of our work on this project
+                    is concentrated around the dangerous, malware-spreading usages of drive-by downloads.</p>
             </div>
         </div>
         <div class="container">
-            <h1 class="title has-text-centered">What are some notable examples of drive-by downloads?</h1>
+            <h4 class="title">Drive-by downloads in 50 seconds</h4>
             <div class="question-answer-container">
-                <p>Great question! See the "Notable Examples" section of our menu to learn about some of history's most prominent drive-by download attacks!</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/znpIuWvrKbo"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="container">
+            <h4 class="title">What are some notable examples of drive-by downloads?</h4>
+            <div class="question-answer-container">
+                <p>Great question! See the menu to learn about four of history's most
+                    prominent drive-by download attacks!</p>
             </div>
         </div>
     </section>
