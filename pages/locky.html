@@ -117,6 +117,12 @@
             How does it work?
         </h4>
         <p>
+            According to FireEye's analysis,
+            the Locky Flash exploit first profiles users to avoid sending exploits to those who were immune.
+            If it detects that its target is vulnerable,
+            it causes the target's flash memory allocator to allocate buffers under its control.
+            This allows it to read and write arbitrary memory.
+            With this capability, it downloads Locky from another server and executes it.
         </p>
         <h4 class="title is-4">
             What damage is it capable of doing?
