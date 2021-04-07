@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LoadPCBanker</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+<section class="section">
+    <div class="container">
+        <h1 class="title">
+          LoadPCBanker
+        </h1>
+        <table class="table is-bordered">
+            <tr>
+                <th>Name</th>
+                <td>LoadPCBanker</td>
+            </tr>
+            <tr>
+                <th>Consequences</th>
+                <td>Stole victims’ data and observed their online behavior</td>
+            </tr>
+            <tr>
+                <th>Date</th>
+                <td>February of 2019</td>
+            </tr>
+        </table>
+        <h4 class="title is-4">
+            Where did it come from?
+        </h4>
+        <p>
+            It is unknown where LoadPCBanker came from but researchers traced the malware back to early 2014, even though it was only discovered recently during a new wave of attacks.
+        </p>
+        <h4 class="title is-4">
+            How was it caught?
+        </h4>
+        <p>
+          It was discovered by Netskope, a cloud security firm.
+        </p>
+        <h4 class="title is-4">
+            Who/what does it target?
+        </h4>
+        <p>
+          According to Netskope, LoadPCBanker is targeting users in Brazil. The country is the largest national economy in Latin America and was an early adopter of online banking technology, with a high concentration of automated teller machines per capita. However, the country’s law enforcement has a “weak posture” on identifying and responding to cyber crime, making it an easy target for cyber criminals.
+        </p>
+        <h4 class="title is-4">
+            How does it work?
+        </h4>
+        <p>
+          LoadPCBanker uses classic Google Sites to create a website, then uploads the malicious code using the Google Sites file-cabinet template. It sends the resulting URL to potential targets, and uses SQL as an exfiltration channel.
+          <img src="https://lh6.googleusercontent.com/4fSUTPPb3FSNeMTRNnq3qU6GsPCo6ACkuA2pxHxU7Snrhb2nYyhkppBOoj4MHm5Eef2ZFDvYr7IpY263DTNUN1hJS4DXNl_hunokiHcNiv-vYVOXAFAWkaIWl7eETxf0qNWVxClw">
+          <br><br><br><br><br>
+          <img src="https://lh3.googleusercontent.com/e84gHp2cKz6uQHAnhYj5YkJ34IH8QbR8Mw6ZTjM3JlFhxXXLAp7iRTXEaQHCFxeb8q1e5L6tZZBKTyZ7ENAY-qFAT_JBDJkos6fAV3ZKIGA55KakZzP0O36S3PCstcrzP9Gjt0UW">
+          <br><br><br>
+        </p>
+        <h4 class="title is-4">
+            What damage is it capable of doing?
+        </h4>
+        <p>
+          LoadPCBanker can collect screenshots, clipboard data and keystrokes of victims. “If the attacker gets access to critical personally identifiable information (PII) like passwords, online activity and credentials, these could be used directly or sold on the black market” said Raymond Canzanese, an architect at Netskope.
+        </p>
+        <h4 class="title is-4">
+            Has a fix been found? How can we defend ourselves?
+        </h4>
+        <p>
+            A fix has not been found yet, but in order to defend ourselves, Netskope says users should always check the domain of a link before clicking on it, and know the domains they use frequently when logging into sensitive services. We should also avoid executing any file unless we are certain that they are benign, even if the file is delivered from a legitimate-appearing Google sites.            
+        </p>
+    </div>
+  </section>
+  <footer>
+    <div class="container has-text-centered">
+      <p>Source: <a href="https://securityledger.com/2019/04/drive-by-malware-uses-google-sites-for-drive-by-download-attacks/">Drive-By Malware Uses Google Sites for Drive by Download Attacks</a></p>
+      <p>Author: Sydney Tran</p>
+    </div>
+  </footer>
+</body>
+</html>
