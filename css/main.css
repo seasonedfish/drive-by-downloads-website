@@ -14,7 +14,16 @@ p, td, th {
     margin-bottom: 2rem;
 }
 
-body {
-    margin:auto;
-    max-width:900px;
+header, section {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+div.question-answer-container {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+div.question-answer-container p {
+    font-size: 1.4em;
 }
