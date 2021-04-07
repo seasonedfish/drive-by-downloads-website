@@ -14,7 +14,7 @@ p, td, th {
     margin-bottom: 2rem;
 }
 
-header, section {
+section, nav {
     max-width: 80%;
     margin: 0 auto;
 }
@@ -26,4 +26,10 @@ div.question-answer-container {
 
 div.question-answer-container p {
     font-size: 1.4em;
+    text-indent: 1.55em;
+}
+
+img.centered-image {
+    display: block;
+    margin: 0 auto;
 }

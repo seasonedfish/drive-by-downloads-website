@@ -8,10 +8,10 @@
 </head>
 <body>
 <header>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
         <div id="navbarBasicExample" class="navbar-menu">
             <div class="navbar-start">
-                <a class="navbar-item">
+                <a class="navbar-item" href="/">
                     About
                 </a>
 
@@ -55,17 +55,29 @@
                     Silently-installed software
                 </p>
             </div>
-            <img src="img/elite_hacker.jpg" alt="HACKED!">
+            <img class="centered-image" src="img/elite_hacker.jpg" alt="HACKED!">
         </div>
     </section>
-    <section class="section question-section is-black">
+    <section class="section question-section">
         <div class="container">
             <h1 class="title has-text-centered">What are drive-by downloads?</h1>
             <div class="question-answer-container">
-                <p>Drive-by downloads are attacks designed to silently and automatically download and install malware or other software onto a user's device. Usually made possible by exploits in browsers and their plugins, drive-by downloads can have serious consequences, especially because many common antivirus softwares are incapable of preventing them. A user is usually exposed to drive-by downloads via popups and links in phishing emails.</p>
+                <p>Drive-by downloads are attacks designed to silently and automatically download and install malware or other software onto a user's device. Usually made possible by exploits in browsers and their plugins, drive-by downloads can have serious consequences, especially because many common antivirus softwares are incapable of preventing them. A user is usually exposed to drive-by downloads via popups and links in phishing emails. Generally, the aim of such an attack will be to utilize vulnerabilities in web browsers, their plugins, and their extensions to take control of a client's system or install and execute programs of the attacker's choice.</p>
+            </div>
+        </div>
+        <div class="container">
+            <h1 class="title has-text-centered">How do drive-by downloads work?</h1>
+            <img class="centered-image" src="img/Drive-by-downloads-attack-flow.png" alt="Drive-by download attack flowchart">
+            <div class="question-answer-container">
+                <p>This diagram demonstrates how a simplified drive-by download attack would occur. It begins with the attacker creating a malicious website (potentially mimicking a legitimate website, like in a phishing attack), which injects malicious code into its clients. When the client visits a legitimate site, a signal is also sent out to an exploit site. In a sophisticated attack, several intermediate websites will also be redirected to, making it harder to identify the exploit site. The exploit site houses elaborate malicious code that searches for and takes advantages of exploits in the client's current OS and web browser. If one is detected, it is utilized do install the malware of the attacker's choice directly to the user's device, all without alerting the user of any unusual activity.</p>
             </div>
         </div>
     </section>
 </main>
+<footer>
+    <div class="container has-text-centered">
+        <p>Authors: Fisher & Dan</p>
+    </div>
+</footer>
 </body>
 </html>
