@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Lurk Banking Trojan</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+<header>
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <div id="navbarBasicExample">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="/">
+                    About
+                </a>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        Notable Examples
+                    </a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="/pages/androzek.html">
+                            Androzek
+                        </a>
+                        <a class="navbar-item" href="/pages/loadpcbanker.html">
+                            LoadPCBanker
+                        </a>
+                        <a class="navbar-item" href="/pages/locky.html">
+                            Locky
+                        </a>
+                        <a class="navbar-item" href="/pages/lurk.html">
+                            Lurk
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<section class="section">
+    <div class="container">
+        <h1 class="title">
+            Lurk
+        </h1>
+        <table class="table is-bordered">
+            <tr>
+                <th>Name</th>
+                <td>The Lurk Banking Trojan</td>
+            </tr>
+            <tr>
+                <th>Consequences</th>
+                <td>It is estimated that the hackers stole over 45 million dollars from banking networks.</td>
+            </tr>
+            <tr>
+                <th>Date</th>
+                <td>2011- June 2016</td>
+            </tr>
+        </table>
+        <h4 class="title is-4">
+            Where did it come from?
+        </h4>
+        <p>
+            The attack was developed, orchestrated, and maintained by Lurk, an organization of Russian cybercriminals.
+            They developed Lurk, along with a hierarchy of money handlers and security features, in order to gradually
+            steal millions of dollars from Russia’s largest banking systems.
+        </p>
+        <h4 class="title is-4">
+            How was it caught?
+        </h4>
+        <p>
+            Several measures included by Lurk’s developers helped cover their tracks for several years — Lurk avoided
+            leaving footprints on hard drives by working solely in the RAM of infected computers, included layers of
+            encryption and obfuscation, communicated with control servers registered under fake identities, and
+            constantly changed to adapt to different banking systems. However, by the time that Lurk (the group) had
+            begun selling their Angler exploit kit, the <a href="https://usa.kaspersky.com/blog/bye-bye-lurk/7583/" target="_blank">Russian police and Kaspersky Lab were able to compile enough
+            clues from the group’s occasional mistakes</a> to be able to identify and arrest the suspected group members.
+            Kaspersky Lab had been able to identify Lurk’s computer network, and that was enough information for the
+            Russian police to be able to locate and arrest around 50 members of the organization from across the
+            country.
+        </p>
+        <h4 class="title is-4">
+            Who/what does it target?
+        </h4>
+        <p>
+            The Lurk Banking Trojan primarily targets Russian financial institutions to steal money from them and their
+            customers.
+        </p>
+        <h4 class="title is-4">
+            How does it work?
+        </h4>
+        <p>
+            There were two main components to the Lurk Banking Trojan — the malware itself, a trojan designed to steal
+            money from Russian bank customers, and a series of <a href="https://www.ncsc.gov.uk/collection/supply-chain-security/watering-hole-attacks" target="_blank">watering hole attacks</a> and <a href="https://usa.kaspersky.com/resource-center/threats/botnet-attacks" target="_blank">botnets</a> used to distribute the trojan. The trojan would lie dormant,
+            and would only have an impact on the devices where it could steal money, making it much harder to trace. The
+            trojan was able to <a href="https://www.netsparker.com/blog/web-security/frame-injection-attacks/" target="_blank">inject malicious iFrame content</a> into popular Russian websites to exploit flaws in the
+            browser to begin a drive-by download attack. This attack would determine if the computer and user were
+            appropriate targets that could be stolen from. Then, Lurk would load malware onto their appropriate targets,
+            and use it to steal funds from the country’s most common banking systems.
+        </p>
+        <img src="../img/watering%20hole.png" alt="The Lurk Banking Trojan is reliant on such watering hole attacks to spread itself">
+        <h4 class="title is-4">
+            What damage is it capable of doing?
+        </h4>
+        <p>
+            The Lurk Banking Trojan is capable of draining the balances of individuals’ bank accounts. With time, it is
+            able to steal large quantities of money from entire banking networks, but the damages are more significant
+            on the individual level. It targets private financial information, such as account logins.
+        </p>
+        <h4 class="title is-4">
+            Has a fix been found? How can we defend ourselves?
+        </h4>
+        <img src="../img/lurk-takedown.png" alt="After the Lurk Banking Trojan arrests, several other cybsersecurity threats went offline.">
+        <p>
+            After the arrest of around 50 members of Lurk, much of the infrastructure that allowed the Lurk Banking
+            Trojan to run went offline. Although this did not eradicate the virus, it stopped it from spreading and
+            rendered it ineffective by disconnecting it from the network of money mules that it requires. Modern
+            antivirus software are capable of defending against some trojans, but ultimately much of the responsibility
+            comes down to us, the users, who must be sure <a href="https://www.cio.com/article/2448967/6-ways-to-defend-against-drive-by-downloads.html" target="_blank">to keep our browsers and operating systems up to date and to avoid insecure websites that could easily become watering holes.</a>
+        </p>
+    </div>
+</section>
+<footer>
+    <div class="container has-text-centered">
+        <p style="margin-bottom: 0">Sources:</p>
+        <ul>
+            <li><a href="https://www.comparitech.com/blog/information-security/drive-by-download/" target="_blank">https://www.comparitech.com/blog/information-security/drive-by-download/</a></li>
+            <li><a href="https://www.securityweek.com/50-hackers-using-lurk-banking-trojan-arrested-russia" target="_blank">https://www.securityweek.com/50-hackers-using-lurk-banking-trojan-arrested-russia</a></li>
+            <li><a href="https://usa.kaspersky.com/blog/bye-bye-lurk/7583/" target="_blank">https://usa.kaspersky.com/blog/bye-bye-lurk/7583/</a></li>
+            <li><a href="https://apt.securelist.com/apt/lurk" target="_blank">https://apt.securelist.com/apt/lurk</a></li>
+            <li><a href="https://news.softpedia.com/news/there-is-a-connection-between-the-lurk-arrests-angler-and-the-necurs-botnet-506164.shtml" target="_blank">https://news.softpedia.com/news/there-is-a-connection-between-the-lurk-arrests-angler-and-the-necurs-botnet-506164.shtml</a></li>
+            <li><a href="https://www.ncsc.gov.uk/collection/supply-chain-security/watering-hole-attacks" target="_blank">https://www.ncsc.gov.uk/collection/supply-chain-security/watering-hole-attacks</a></li>
+        </ul>
+        <br>
+        <p>Author: Dan</p>
+    </div>
+</footer>
+</body>
+</html>
