@@ -24,11 +24,6 @@ div.question-answer-container {
     margin: 0 auto;
 }
 
-div.question-answer-container p {
-    font-size: 1.4em;
-    text-indent: 1.55em;
-}
-
 img.centered-image {
     display: block;
     margin: 0 auto;
